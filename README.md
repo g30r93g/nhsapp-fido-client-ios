@@ -8,13 +8,14 @@ You can use the client to:
 * authorise against registered biometric details
 
 We'll add the client to the public [CocoaPods dependency manager](https://github.com/CocoaPods/CocoaPods) soon.
+Swift Package Manager support is in beta.
 
 ## Requirements
 
 * iOS 10.0 or above
-* Familiarity with [CocoaPods](https://cocoapods.org/)
+* Familiarity with [CocoaPods](https://cocoapods.org/) or [Swift Package Manager](https://swift.org/package-manager/).
 
-## Installation
+## Cocoapods Installation
 
 1. Get the [LoginKit](https://cocoapods.org/pods/LoginKit) library from CocoaPods.
 
@@ -23,6 +24,11 @@ We'll add the client to the public [CocoaPods dependency manager](https://github
     ```ruby
     pod 'FidoClientIOS'
     ```
+## Swift Package Manager Installation
+
+Open your Xcode project and select `File` -> `Swift Packages` -> `Add Package Dependency`
+
+Use `https://github.com/TigerWolf/LoginKit.git` as the URL and use the `.branch("master")` tag.
 
 ## Getting started
 
